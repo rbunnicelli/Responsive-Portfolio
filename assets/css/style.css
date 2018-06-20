@@ -222,9 +222,16 @@ input[type=submit] {
 /* Media Screen */
 
 @media screen and (max-width: 640px) {
-
 body {
-    font-size:12pt;
+    font-size:12px;
+}
+
+#masterheader {
+    position: static;
+}
+
+#main-container {
+    padding-top: 5px;
 }
 
 #logo {
@@ -259,7 +266,12 @@ nav a:first-child {
 .auth-image {
     width: 100%;
 }
+
+.work {
+    width: 100%;
 }
+}
+
 
 
 
