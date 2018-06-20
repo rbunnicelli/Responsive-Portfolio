@@ -219,6 +219,49 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/* Media Screen */
+
+@media screen and (max-width: 640px) {
+
+body {
+    font-size:12pt;
+}
+
+#logo {
+    width: 100%;
+} 
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 auto;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.main-section {
+    width: 90%;
+    display: block;
+    margin: 20px 20px 50px 20px;
+}
+
+.sidebar {
+    display: none;
+}
+
+.auth-image {
+    width: 100%;
+}
+}
+
+
 
 
 
