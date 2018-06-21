@@ -291,9 +291,13 @@ nav {
 }
 }
 
-@media screen and (min-width: 769px) and (max-width: 980px) {
-    
+/*just to hide sidebar until it gets to a point where it wouldnt be stuck under the main-section*/
+@media screen and (min-width: 769px) and (max-width: 920px) {
+.sidebar {
+    display: none;
+}   
 }
+
 
 
 
